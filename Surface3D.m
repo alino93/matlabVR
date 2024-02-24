@@ -6,7 +6,7 @@
 
 L = 40*membrane(1,25);
 
-
+figure(1)
 logoFig = figure('Color',[0 0 0]);
 logoax = axes('CameraPosition', [-193.4013 -265.1546  220.4819],...
     'CameraTarget',[26 26 10], ...
