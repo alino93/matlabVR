@@ -41,4 +41,10 @@ l2 = light('Position',[.5 -1 .4], ...
     'parent',logoax);
 
 % save data for matlabVR
-writematrix(L,'logo.csv') 
+writematrix(L,'logo.csv')
+
+% git push key
+% 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
+repo = gitrepo;
+commit(repo,Files={"Surface3D.m","logo.csv"},Message="Commit new plot data");
+push(repo)
