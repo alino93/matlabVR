@@ -44,7 +44,6 @@ l2 = light('Position',[.5 -1 .4], ...
 writematrix(L,'logo.csv')
 
 % git push key
-
 load("secrets.mat");
 repo = gitrepo;
 commit(repo,Files={"Surface3D.m","logo.csv"},Message="Commit new plot data");
