@@ -1,7 +1,8 @@
-%% Logo
+% Example saving 3D data to plot in MATLABVR
+% Logo
 % Plot the L-shaped membrane logo with MATLAB(R) lighting.
 
-% Copyright 1984-2007 The MathWorks, Inc.
+% Copyright 1984-2024 The MathWorks, Inc.
 
 L = 40*membrane(1,25);
 
@@ -38,4 +39,5 @@ l2 = light('Position',[.5 -1 .4], ...
     'Color',[0.8 0.8 0], ...
     'parent',logoax);
 
+% save data for matlabVR
 writematrix(L,'logo.csv') 
