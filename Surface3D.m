@@ -42,7 +42,7 @@ l2 = light('Position',[.5 -1 .4], ...
 
 % save data for matlabVR
 writematrix(L,'logo.csv')
-
+%%
 % git push key 
 load("secrets.mat");
 repo = gitrepo;
