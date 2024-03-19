@@ -1,7 +1,6 @@
 % Example saving 3D data to plot in MATLABVR
 % Logo
 % Plot the L-shaped membrane logo with MATLAB(R) lighting.
-
 % Copyright 1984-2024 The MathWorks, Inc.
 
 L = 40*membrane(1,25);
